@@ -1,0 +1,31 @@
+.home{
+  margin: 30px;
+  h2{
+    margin-top: 40px;
+  }
+  
+}
+.search{
+  display: flex;
+  span{
+    padding: 5px;
+  }
+}
+input{
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  max-height: 400px;
+}
